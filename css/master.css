@@ -1,0 +1,124 @@
+body{
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.cardsright{
+    border: 1px solid;
+    width: 500px;
+ color: antiquewhite;
+    background: url(<path-to-image>), rgb(69, 95, 209) -116.655px 0px / 144.33% 100% no-repeat;
+    height: 649px;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.setings{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-top: 240px;
+    margin-left: 130px;
+    font-size:30px;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+}
+
+.inpspadng{
+    padding: 40px;
+}
+
+.inputscolmn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mastef{
+    border: none;
+    border-radius: 10%;
+    padding: 10px 15px 10px;
+    background: #0071BB;
+    color: aliceblue;
+}
+
+
+.cardsleft{
+    display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+
+
+.cardsdrows{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.worksdperson{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+@media (max-width: 1200px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      max-width: 540px;
+    }
+
+    .cardsdrows{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cardsright{
+        width: 100%;
+    }
+
+    .cardsleft{
+        width: 100%;
+    text-align: center;
+    }
+
+    .inputscolmn{
+    align-items: center;
+    }
+
+    .mastef{
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+      max-width: 95%;
+    }
+  }
