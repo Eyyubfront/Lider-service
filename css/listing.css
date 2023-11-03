@@ -371,10 +371,13 @@ height: 40px;
     
     }
 
-    .menyu2{
-        display: block;
-    }
-
+    
+  .menyu2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px ;
+    margin-top: 10px;
+  }
     .menyu{
         display: none;
     }
@@ -395,7 +398,7 @@ height: 40px;
 
 .ofic{
   display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .phoottext{

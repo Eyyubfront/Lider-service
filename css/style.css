@@ -771,9 +771,19 @@ a {
   .btnsds {
     width: 100%;
   }
+  .contactscard{
+    width: 100%;
+}
+
 
   .menyu2 {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 10px ;
+    margin-top: 10px;
+  }
+  .swiper-button-prev{
+    display: none;
   }
 
   .incsd1 {
@@ -791,10 +801,13 @@ a {
   .incsd4 {
     width: 100%;
   }
+  .threpages{
+    width: 200px !important;
+  }
 
   .loremad {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 2px;
   }
 
@@ -804,8 +817,10 @@ a {
 
   .lorem2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 2px;
+    width: 200px;
+    height: 100px;
   }
 
   .servicdphotos1 {
@@ -849,7 +864,7 @@ a {
 
   .ofic {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .phoottext {
@@ -996,9 +1011,12 @@ a {
   .wrokspacket {
     border: 1px solid;
     padding: 10px;
-    width: 489px;
-    height: 257px;
+   width: 100% !important;
+    height: 267px;
     background-color: white;
+  }
+  .lorem1{
+    width:300px;
   }
 
   .hovdbutons {
@@ -1077,5 +1095,8 @@ a {
 @media (max-width: 576px) {
   .container {
     max-width: 95%;
+  }
+  .threpages{
+    width:200px !important ;
   }
 }

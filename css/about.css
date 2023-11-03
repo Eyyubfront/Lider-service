@@ -241,7 +241,7 @@ display: none;
   display: block !important;
   padding: 30px;
   z-index: 9;
-  top: 0;
+  top: 120px;
   right: 0;
   position: fixed;
   background: rebeccapurple;
@@ -403,7 +403,9 @@ padding: 10px;
   flex-direction: column !important;
   gap: 10px;
 }
-
+.threpages{
+  width: 100% !important;
+}
 .ehtconst{
   display: flex !important;
   flex-direction: column !important;
@@ -450,7 +452,10 @@ iframe{
 }
 
 .menyu2{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .menyu{
@@ -473,7 +478,7 @@ justify-content: center;
 
 .ofic{
 display: flex;
-flex-direction: column;
+flex-direction: row;
 }
 
 .phoottext{
